@@ -16,7 +16,7 @@ library(osfr) # <- Connect to OSF
 # Connection to OSF #
 #####################
 
-main.path <- "/Users/tommasocancellario/Desktop/OSF_prove"
+main.path <- "./OSF_prove"
 # Create folder where you can download the files. 
 # For mor information: ?dir.create
 dir.create(main.path)
