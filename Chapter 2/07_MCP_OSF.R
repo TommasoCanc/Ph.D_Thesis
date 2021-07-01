@@ -93,3 +93,6 @@ for(i in 2:length(mcp.dir)){
               filename = paste0("./MCP/MCP_Buffer/", odonShp$id, ".tif"), 
               format = "ascii", overwrite = TRUE)
 }
+
+# Clean workspace
+rm(list = ls())
