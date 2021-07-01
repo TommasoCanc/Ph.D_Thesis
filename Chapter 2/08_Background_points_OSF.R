@@ -54,11 +54,11 @@ background.df <- data.frame(canonicalName = unique(presence$canonicalName),
                             x = background$x,
                             presence = 0)
 
-presencia.backgraound <- rbind(presence, background.df)
+presence.backgraound <- rbind(presence, background.df)
 
 # Save dataframe with presence (1) and backgrund (0)
-write.csv(presencia.backgraound, 
+write.csv(presence.backgraound, 
           paste0("./Presence_Background/Odonata_presencia_background/", 
-                 unique(presencia$canonicalName), ".csv"), row.names = FALSE)
+                 unique(presence$canonicalName), ".csv"), row.names = FALSE)
 
 }; rm(list = ls())
