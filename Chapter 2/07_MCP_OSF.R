@@ -45,7 +45,8 @@ for(i in 1:length(odon)){
     # Save only the species with presence >15
     if(nrow(pts_in.df) >= 15){
       write.csv(pts_in.df, paste0("./MCP/Odonata_15_Presence/", 
-                                  unique(sp$canonicalName), ".csv"))
+                                  unique(sp$canonicalName), ".csv"),
+               row.names = FALSE)
       
       # Save shp of MCP.99
       rgdal::writeOGR(sp.99, 
