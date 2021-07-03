@@ -939,3 +939,6 @@ for(i in 1:19){
   writeRaster(bioVar[[i]], filename = paste0(getwd(), 
               "/BCC_2070/bioVar_crop/", names(bioVar)[i], ".tif"), 
               format = "GTiff", overwrite = FALSE)}; rm(i)
+
+# Clean workspace
+rm(list = ls())
