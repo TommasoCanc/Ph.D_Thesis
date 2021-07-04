@@ -1,1 +1,1 @@
-Scripts used in Chapter 3
+Here you can find the R scripts used in the Chapter 3.
