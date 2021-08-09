@@ -13,7 +13,7 @@ library(gridExtra) # <- Plot
 library(grid) # <- Plot
 
 # Main path
-main.path <- "/Users/tommasocancellario/Desktop/OSF_prove"
+main.path <- "YOUR_PATH"
 setwd(main.path)
 
 # Create folder to save data
