@@ -13,7 +13,7 @@ library(viridis) # <-  Plot Color
 library(ggplot2) # <- Plot
 
 # Main path
-main.path <- "/Users/tommasocancellario/Desktop/OSF_prove"
+main.path <- "YOUR_PATH"
 setwd(main.path)
 
 # Create directory to save the files
