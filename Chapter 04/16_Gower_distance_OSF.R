@@ -7,7 +7,7 @@ library(xlsx) # <- Open .xlsx
 library(gawdis) # Gower distance
 
 # Main path
-main.path <- "/Users/tommasocancellario/Desktop/OSF_prove"
+main.path <- "YOUR_PATH"
 
 # Load file with traits
 traits <- read.xlsx("./Odonata_traits_SDM.xlsx", sheetIndex = 1) 
