@@ -9,7 +9,7 @@ library(raster) # <- GIS
 # Set working directory #
 #########################
 
-main.path <- "/Users/tommasocancellario/Desktop/OSF_prove"
+main.path <- "YOUR_PATH"
 setwd(main.path)
 
 
