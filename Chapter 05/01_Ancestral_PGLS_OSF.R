@@ -16,7 +16,7 @@ library(osfr) # <- Connect to OSF
 # Connection to OSF #
 #####################
 
-main.path <- "/Users/tommasocancellario/Desktop/OSF"
+main.path <- "YOUR_PATH"
 # Create folder where you can download the files. 
 # For more information: ?dir.create
 setwd(main.path)
