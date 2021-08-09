@@ -8,7 +8,7 @@ library(raster) # <- GIS
 library(osfr) # <- Connect to OSF
   
 # Main path 
-main.path <- "/Users/tommasocancellario/Desktop/OSF_prove"
+main.path <- "YOUR_PATH"
   
 # Connect to Open Science Framework
 cr_project <- osf_retrieve_node("4p63t")
