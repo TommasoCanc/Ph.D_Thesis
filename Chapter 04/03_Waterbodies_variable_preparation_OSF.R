@@ -12,7 +12,7 @@ library(osfr) # <- Connect to OSF
 # Connection to OSF #
 #####################
 
-main.path <- "/Users/tommasocancellario/Desktop/OSF_prove"
+main.path <- "YOUR_PATH"
 setwd(main.path)
 
 # Connect to Open Science Framework
